@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+             'first_node = roman_study_pkg.first_node:main',
         ],
     },
 )
